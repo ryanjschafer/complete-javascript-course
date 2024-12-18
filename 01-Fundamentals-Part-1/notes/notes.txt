@@ -1,2 +1,5 @@
 What is JavaScript?
 -- High-Level, object oriented, multi-paradigm programming language.
+-- Based on objects, for storing most kinds of data
+-- We don't have to worry about comlex stuff like memory managemetn
+-- Instruct computer to "do" things
