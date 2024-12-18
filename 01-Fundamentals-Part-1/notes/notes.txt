@@ -3,3 +3,25 @@ What is JavaScript?
 -- Based on objects, for storing most kinds of data
 -- We don't have to worry about comlex stuff like memory managemetn
 -- Instruct computer to "do" things
+
+Role of JavaScript in Web Development
+-- HTML, CSS, JavaScript
+-- JavaScript - Building Web Applications
+-- HTML = Nouns
+-- CSS = Adjectives
+-- JS = Verbs
+
+There is nothing you can't do with JavaScript (Well, Almost...)
+- It Can:
+-- Dynamic effects and web applications in the browser
+--- React, Angular, View (Allow writing large scale applications a lot faster, but they are all based on JavaScript. Get good at JS before using those frameworks)
+-- Web applications on web servers
+--- Node.js (Back-end apps)
+- Native mobile applications
+-- React, Ionic
+- Native desktop applications (mobile phone, etc.)
+-- Electron
+
+JavaScript Releases:
+- ES5 --> ES6/ES2015 --> ES7/ES2016 --> ES8/ES2017 --> ES9/ES2018 --> ES10/ES2019 --> ES11/ES/2020
+-- Everything after ES5 is considered "modern JavaScript"
