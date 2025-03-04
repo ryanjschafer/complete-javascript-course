@@ -79,3 +79,20 @@ console.log(ageJonas >= 18); // true as defined on line 56
 const isFullAge = ageJonas >= 18; // Stores line 77 as a variable
 
 consol.log(now - 1991 > now - 2018); // returns true
+
+// ================================================================
+
+// Section 2: Lesson 13 - OPERATOR PRECEDENCE ---------------------------
+// Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
+
+const nowNew = 2037;
+const ageJonasNew = now - 1991;
+const ageSarahNew = now - 2018;
+console.log(now - 1991 > now - 2018);
+
+let x1, y;
+x1 = y = 25 - 10 - 5; // x = y = 10
+console.log(x, y); // both equal 10
+
+const averageAge = (ageJonasNew + ageSarahNew) / 2; // Anything in parentheses is done first
+console.log(ageJonasNew, ageSarahNew, averageAge);
