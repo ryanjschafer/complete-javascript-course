@@ -5,6 +5,8 @@ let js = "amazing";
 // let calculation = 40 + 8 + 23 - 10;
 // console.log(calculation);
 
+// ================================================================
+
 // Section 2: Lesson 9 ---------------------------
 console.log("Ryan");
 
@@ -13,7 +15,9 @@ console.log(firstName);
 // NOTE: You cannot set a variable name to start with a number, & or uses a reserved JS keyword - IE: let 3years = 3;
 // You can also define constants using all uppercase letters, IE: let PI = 3.1415;
 
-// Section 2: Lesson 10
+// ================================================================
+
+// Section 2: Lesson 10 ---------------------------
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
@@ -29,3 +33,15 @@ console.log(year);
 console.log(typeof year);
 
 year = 1991; // Used to be undefined, but redefining to a value (number data type)
+
+// ================================================================
+
+// Section 2: Lesson 11 ---------------------------
+let age = 30; // let allows you to "mutate" variable later in the code
+age = 31;
+
+const birthYear = 1995; // this is immmutable and cannot be changed under const
+
+// const job; this will cause an error, can't be "undefined"
+
+// Avoid using "var" to define variables as it is an old way. Uses pretty much the same way as "let"
