@@ -96,3 +96,24 @@ console.log(x, y); // both equal 10
 
 const averageAge = (ageJonasNew + ageSarahNew) / 2; // Anything in parentheses is done first
 console.log(ageJonasNew, ageSarahNew, averageAge);
+
+// ================================================================
+
+// Section 2: Lesson 17 - STRINGS AND TEMPLATE LITERALS ---------------------------
+const nameFirst = "Ryan";
+const job = "Techy";
+const birthYearNew = 1995;
+
+// Hard way
+const ryan =
+  "I'm " + nameFirst + ", a" + (year - birthYear) + " years old " + job + "!";
+console.log(ryan);
+
+// Easy way (using template lterals)
+const ryanNew = `I'm ${nameFirst}, a ${year - birthYearNew} year old ${job}`;
+
+// Multi-line strings with template literals
+console.log(`String
+    with
+    multiple
+    lines`);
